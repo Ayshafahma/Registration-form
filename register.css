@@ -1,0 +1,38 @@
+body {
+  /* background-color: beige; */
+  font-family: "Oswald", sans-serif;
+}
+
+#header {
+  background-color: darkgray;
+  /* max-width: max-content; */
+  height: 6.5em;
+  display: flex;
+  justify-content: center;
+}
+#header1 {
+  font-size: 3.5em;
+  color: dimgray;
+  padding-top: 0px;
+}
+#content {
+  background-color: lightgrey;
+  height: 36em;
+  dispay: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-left: 35rem;
+  size: 20px;
+}
+#btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#btn:hover {
+  background-color: #0056b3;
+}
